@@ -19,4 +19,6 @@ for index, cliente in clientes.iterrows():
     server.login('marlonjcc23@gmail.com','vhbw njqk hnzf gtwo')   # email / Senha
     server.sendmail(msg['From'], msg['To'], msg.as_string())
     server.quit()
+
+    ##
     
